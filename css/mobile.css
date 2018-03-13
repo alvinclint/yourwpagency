@@ -1,0 +1,174 @@
+/* Mobile CSS */
+.mobile_menu.navbar-default {
+    display: none;
+}
+@media only screen and (max-width: 1366px) {
+.gws_member_slider_wrap, .gws_companies_slider_wrap{
+    max-width: 100%;
+}
+}
+
+@media only screen and (max-width: 1120px) {
+ .site-header .wrap, .site-inner .wrap, .site-footer .wrap, .footer-widgets .wrap, .bottom-widget .wrap,
+.entry-content-title.wrap,
+.gws_hero_content,
+.gws_who_we_are_content,
+.gws_apply_wrap,
+.blog_wrap,
+.gws_partners_slider_wrap{
+    max-width: 100%;
+}
+.mobile_menu.navbar-default {
+    margin-top: 0;
+    float: right;
+    display: block;
+    background: transparent;
+    margin-right: 0;
+}
+.mobile_menu.navbar-default button{
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius: 0;
+    margin-right: 0;
+    border: 1px solid #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+}
+.mobile_menu.navbar-default button:hover,
+.mobile_menu.navbar-default button:visited,
+.mobile_menu.navbar-default button:focus{
+     background: transparent;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar{
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+span.indicator {
+    display: block;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 8px 10px 8px 0;
+    overflow: hidden;
+}
+span.indicator i{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+.nav-primary{
+    display: none;
+}
+.site-header .widget-area {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.mobile_nav_enable .nav-primary{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;  
+}
+.mobile_nav_enable  .menu-primary li,
+.mobile_nav_enable  .menu-secondary li,
+.mobile_nav_enable  .site-header .menu li {
+    float: right;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+a.wfs_button.white > br{
+    display: none;
+}
+a.wfs_button.white{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 750px) {
+.sign_up_wrap {
+    width: 97%;
+}
+}
+@media only screen and (max-height: 700px) {
+.home-widget{
+    height: auto !important;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.sign_up {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+.sign_up_wrap {
+    display: block;
+    width: 93%;
+    margin: auto;
+    height: auto;
+    left: 0;
+    position: relative;
+    z-index: 9999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f8f8f8;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 40px;
+}
+}
+@media only screen and (max-width: 480px) {
+.home-widget{
+    height: auto !important;
+}
+.wfs_hero_label {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.wfs_hero_label h1 {
+    font-size: 30px;
+    letter-spacing: 0;
+}
+.mobile_menu.navbar-default {
+    display: none;
+}
+.sign_up_wrap .gform_wrapper form {
+    padding: 0 30px;
+}
+}
